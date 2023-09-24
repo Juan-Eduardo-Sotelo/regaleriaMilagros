@@ -71,14 +71,14 @@ img {
 p {
     text-align: center;
 }
-h2, h4 {
+h2, h3, h4 {
     text-align: center;
     padding: 10px;
 }
 p {
     line-height: 1.5;
 }
-h1, h2, h4 {
+h1, h2, h3, h4 {
     font-family: 'Courgette', cursive;
 }
 .parrafo {
@@ -87,6 +87,11 @@ h1, h2, h4 {
     padding: 10px;
     margin: 10px;
 
+}
+.formulario{
+    width: 500px;
+    margin: 10px auto;
+    padding: 20px;
 }
 .iframe{
     text-align: center;
