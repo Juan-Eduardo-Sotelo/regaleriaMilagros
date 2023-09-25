@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(236, 167, 167);
+    header {
+        margin: 0 auto;
+        padding: 25px;
+        .titulo {
+            text-align: center;
+            font-family: 'Courgette', cursive;
+        }
+    }
+        nav{
+            .nevega{
+                width: 40%;
+                margin: 0 auto;
+                div{
+                    a{
+                        .logo {
+                            width: 50px;
+                    }
+                }
+            }
+        }
+    }
+    .carru{
+        width: 280px;
+        margin: 0 auto;
+        .portada{
+            width: 280px;
+            img {
+                width: 300px;
+            }
+        }
+    }
+    footer{
+        margin: 0 auto;
+        .redes {
+            padding: 5px;
+            list-style: none;
+            text-align: center;
+                li {
+                display: inline-block;
+                text-align: center;
+                    a {
+                    padding: 30px;
+                    text-decoration: none;
+                    color:black;
+                    display: inline-block;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
