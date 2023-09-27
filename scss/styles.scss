@@ -1,3 +1,5 @@
+@import "_maingeneral";
+
 * {
     margin: 0;
     padding: 0;
@@ -21,6 +23,7 @@ body {
                     a{
                         .logo {
                             width: 50px;
+                        }
                     }
                 }
             }
@@ -55,7 +58,7 @@ body {
             }
         }
     }
-}
+
 
 @media screen and (max-width: 768px){
     body{

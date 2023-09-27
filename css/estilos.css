@@ -1,3 +1,48 @@
+main section p {
+  line-height: 1.5;
+  text-align: center;
+}
+main section p .parrafo {
+  font-family: "Alegreya", serif;
+  border: 3px yellow dotted;
+  padding: 10px;
+  margin: 10px;
+}
+main section div .cajasFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+main section div .cajasFlex img img {
+  width: 300px;
+}
+main section div .cajasFlex img .bordeRedondeado {
+  border-radius: 30px;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border: 2px solid;
+  opacity: 0.8;
+}
+main section div .cajasFlex img .bordeRedondeado:hover {
+  opacity: 1;
+}
+main section div .iframe {
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Courgette", cursive;
+  text-align: center;
+  padding: 10px;
+}
+
+.formulario {
+  width: 500px;
+  margin: 10px auto;
+  padding: 20px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -22,29 +67,31 @@ body nav .nevega {
 body nav .nevega div a .logo {
   width: 50px;
 }
-body .carru {
+
+.carru {
   width: 280px;
   margin: 0 auto;
 }
-body .carru .portada {
+.carru .portada {
   width: 280px;
 }
-body .carru .portada img {
+.carru .portada img {
   width: 300px;
 }
-body footer {
+
+footer {
   margin: 0 auto;
 }
-body footer .redes {
+footer .redes {
   padding: 5px;
   list-style: none;
   text-align: center;
 }
-body footer .redes li {
+footer .redes li {
   display: inline-block;
   text-align: center;
 }
-body footer .redes li a {
+footer .redes li a {
   padding: 30px;
   text-decoration: none;
   color: black;
