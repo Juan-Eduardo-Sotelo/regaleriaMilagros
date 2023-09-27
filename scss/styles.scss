@@ -56,3 +56,50 @@ body {
         }
     }
 }
+
+@media screen and (max-width: 768px){
+    body{
+    footer{
+        margin: 0 auto;
+        .redes {
+            padding: 5px;
+            list-style: none;
+            text-align: center;
+                li {
+                display: inline-block;
+                text-align: center;
+                    a {
+                    padding: 30px;
+                    text-decoration: none;
+                    color:red;
+                    display: inline-block;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    }
+}
+@media screen and (max-width: 480px){
+    body{
+    footer{
+        margin: 0 auto;
+        .redes {
+            padding: 5px;
+            list-style: none;
+            text-align: center;
+                li {
+                display: inline-block;
+                text-align: center;
+                    a {
+                    padding: 30px;
+                    text-decoration: none;
+                    color:blue;
+                    display: inline-block;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    }
+}
