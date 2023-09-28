@@ -1,22 +1,16 @@
-main section p {
-  line-height: 1.5;
-  text-align: center;
-}
-main section p .parrafo {
+.parrafo {
   font-family: "Alegreya", serif;
   border: 3px yellow dotted;
   padding: 10px;
   margin: 10px;
 }
-main section div .cajasFlex {
+
+.cajasFlex {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-main section div .cajasFlex img img {
-  width: 300px;
-}
-main section div .cajasFlex img .bordeRedondeado {
+.cajasFlex .bordeRedondeado {
   border-radius: 30px;
   width: 300px;
   height: 300px;
@@ -24,11 +18,17 @@ main section div .cajasFlex img .bordeRedondeado {
   border: 2px solid;
   opacity: 0.8;
 }
-main section div .cajasFlex img .bordeRedondeado:hover {
+.cajasFlex .bordeRedondeado:hover {
   opacity: 1;
 }
-main section div .iframe {
+
+.iframe {
   text-align: center;
+}
+
+p {
+  text-align: center;
+  line-height: 1.5;
 }
 
 h1, h2, h3, h4 {
